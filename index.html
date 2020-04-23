@@ -7,6 +7,8 @@
     <title>Creative House</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -34,11 +36,11 @@
             </main>
 
             <section id="buttons">
-                <button>+ Post Idea</button>
+                <button onclick="onOff()">+ Post Idea</button>
                 <button class="fat">See Ideas</button>
             </section>
 
-            <footer>With <i class="fa fa-heart"></i> Rocketseat</footer>
+            <footer>With <i class="fa fa-heart"></i> <a href="https://rocketseat.com.br/">Rocketseat</a></footer>
         </section>
 
         <section id="last-ideas">
@@ -88,6 +90,48 @@
             </div>
         </section>
 
+    </div>
+
+    <!-- Modal -->
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>New Idea</h1>
+
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Idea Title</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Category</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Image link</label>
+                    <input type="url" name="image">
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Describe your idea</label>
+                    <textarea name="description" cols="30" rows="6"></textarea>
+
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Idea Link</label>
+                    <input type="url" name="link">
+                </div>
+
+                <a href="#" onclick="onOff()">Back</a>
+                <button>Save</button>
+
+            </form>
+        </div>
     </div>
 
     <script src="scripts.js"></script>
