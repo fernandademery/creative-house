@@ -1,36 +1,29 @@
-{% extends "layout.html" %}
-
-{% set bodyId = "page-ideas" %}
-
-{% block title %}
+{% extends "layout.html" %} {% set bodyId = "page-ideas" %} {% block title %}
 <title>Ideas - Creative House</title>
-{% endblock title %}
-
-{% block content %}
+{% endblock title %} {% block content %}
 <header>
-    <a href="/">
-        <img src="/logo.png" alt="logo">
-    </a>
+  <a href="/">
+    <img src="/logo.png" alt="logo" />
+  </a>
 
-    <nav>
-        <li><a href="/">Home</a></li>
-        <li><a href="#" onclick="onOff()">New Idea</a></li>
-    </nav>
+  <nav>
+    <li><a href="/">Home</a></li>
+    <li><a href="#" onclick="onOff()">New Idea</a></li>
+  </nav>
 </header>
 
 <section id="title">
-    <p>showing</p>
-    <h1>Ideas</h1>
+  <p>showing</p>
+  <h1>Ideas</h1>
 </section>
 
 <main>
-    <section id="ideas">
-        {% include "all_ideas.html" %}
-    </section>
+  <section id="ideas">{% include "all_ideas.html" %}</section>
 </main>
 
 <footer>
-    With <i class="fa fa-heart"></i> <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+  With <i class="fa fa-heart"></i>
+  <a href="https://github.com/fernandademery" target="_blank">Rocketseat</a>
 </footer>
 
 {% endblock %}

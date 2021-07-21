@@ -8,7 +8,7 @@ const ideas = [
     category: "Learning",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque nam, tempore perspiciatis.",
-    url: "https://rocketseat.com.br",
+    url: "https://github.com/fernandademery",
   },
   {
     img: "https://image.flaticon.com/icons/svg/2729/2729027.svg",
@@ -16,7 +16,7 @@ const ideas = [
     category: "Mental Health",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque nam, tempore perspiciatis.",
-    url: "https://rocketseat.com.br",
+    url: "https://github.com/fernandademery",
   },
   {
     img: "https://image.flaticon.com/icons/svg/2729/2729005.svg",
@@ -24,7 +24,7 @@ const ideas = [
     category: "Fitness & Wellness",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque nam, tempore perspiciatis.",
-    url: "https://rocketseat.com.br",
+    url: "https://github.com/fernandademery",
   },
   {
     img: "https://image.flaticon.com/icons/svg/1941/1941126.svg",
@@ -32,7 +32,7 @@ const ideas = [
     category: "Fun with family",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque nam, tempore perspiciatis.",
-    url: "https://rocketseat.com.br",
+    url: "https://github.com/fernandademery",
   },
   {
     img: "https://image.flaticon.com/icons/svg/2893/2893003.svg",
@@ -40,7 +40,7 @@ const ideas = [
     category: "Nature",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque nam, tempore perspiciatis.",
-    url: "https://rocketseat.com.br",
+    url: "https://github.com/fernandademery",
   },
   {
     img: "https://image.flaticon.com/icons/png/512/603/603541.png",
@@ -48,7 +48,7 @@ const ideas = [
     category: "Arts & Creativity",
     description:
       "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo neque nam, tempore perspiciatis.",
-    url: "https://rocketseat.com.br",
+    url: "https://github.com/fernandademery",
   },
 ];
 
