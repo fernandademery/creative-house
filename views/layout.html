@@ -1,34 +1,36 @@
-<!DOCTYPE html>
+{% extends "index.html" %} {% block content %}
 
-<html>
+<section id="intro">
+  <header>
+    <img src="/logo.png" alt="logo" />
+  </header>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <main>
+    <p>It's not easy to stay at home for long periods of time.</p>
+    <p>
+      That's why we decided to catalog
+      <strong> ideas, games, movies, books, courses, tips </strong> and
+      everything that's needed for a better experience during social distancing.
+    </p>
+    <p>
+      You can start by clicking in see ideas to browse over our suggestions and
+      you can also contribute by adding your own idea!
+    </p>
+  </main>
 
-    {% block title %}
-    <title>Creative House</title>
-    {% endblock title %}
+  <section id="buttons">
+    <button onclick="onOff()">+ Post Idea</button>
+    <a href="/ideas" class="button">See Ideas</a>
+  </section>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap"
-        rel="stylesheet">
-</head>
+  <footer>
+    With <i class="fa fa-heart"></i>
+    <a href="https://github.com/fernandademery" target="_blank"
+      >Fernanda D'Emery</a
+    >
+  </footer>
+</section>
 
-<body id={{bodyId}}>
+<section id="last-ideas">{% include "all_ideas.html" %}</section>
 
-    <div id="container">
-
-        {% block content %}
-        {% endblock %}
-
-    </div>
-
-    <!-- Modal -->
-
-    {% include "modal.html" %}
-
-    <script src="scripts.js"></script>
-</body>
-
-</html>
+{% endblock %}
