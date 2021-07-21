@@ -71,7 +71,7 @@ server.get("/", function (req, res) {
     }
   }
 
-  return res.render("index.html", { ideas: lastIdeas });
+  return res.render("layout.html", { ideas: lastIdeas });
 });
 
 server.get("/ideas", function (req, res) {
